@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="assets/style.css">
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="assets/style.css">
 		<title>Matt Scuteri</title>
 	</head>
 
 	<body>
-		<nav class="nav justify-content-end">
-			<a class="nav-link" href="#">Skills</a>
-			<a class="nav-link" href="#">Sample Projects</a>
-			<a class="nav-link" href="#">Contact</a>
-		</nav>		
-		<div class="home-container">
-			<main role="main" class="inner cover text-center">
+		<div class="sticky-top text-right" id="nav-bar">
+			<nav class="nav justify-content-end">
+				<a class="js-scroll-trigger" href="#skills">Skills</a>
+				<a class="js-scroll-trigger" href="#samples">Sample Projects</a>
+				<a class="js-scroll-trigger" href="#contact">Contact</a>
+			</nav>	
+		</div>	
+		<div class="container-fluid" id="home">
+			<main role="main" class="inner cover text-center" id="header">
 				<h1 class="display-4">Matt Scuteri</h1>
 				<h3>Full Stack Web Developer</h3>
 			</main>
 		</div>
 		
-		<div class="skills-container">
+		<div class="container-fluid" id="skills">
 			<h2 class="text-center">Skills</h2>
 			<div class="row align-items-center">
 				<div class='col-lg-4'>
@@ -54,7 +56,7 @@
 			</div>
 		</div>
 		
-		<div class="projects-container">
+		<div class="container-fluid" id="samples">
 			<h2 class="text-center">Sample Project</h2>
 			<div class="row">
 				<div class='col-lg-4'>
@@ -74,7 +76,7 @@
 				</div>
 			</div>	
 		</div>
-		<div class="contact-container">
+		<div class="container-fluid" id="contact">
 			<div class="row">
 				<div class="col-lg-4"></div>
 				<div class="col-lg-4 text-center">
