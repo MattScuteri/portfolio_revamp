@@ -5,13 +5,25 @@
 #home {
 	position: relative;
 	display: table;
-	height: 600px;
+	height: 650px;
 	width: 100%;
+	background: url(images/IMG_0496.JPG);
 	background-size: cover;
 }
 
 #header {
-	padding-top: 25%;
+	padding-top: 10%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-style: bold;
+	color: white;
+}
+
+.display-4 {
+	font-size: 72px;
+}
+
+.sub-header {
+	font-size: 36px;
 }
 
 #skills {
@@ -19,7 +31,25 @@
 	display: table;
 	height: 600px;
 	width: 100%;
-	padding-top: 10%
+	padding-top: 5%
+}
+
+#front_end {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%; 
+}
+
+#back_end {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%; 
+}
+
+#cool_stuff {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%; 
 }
 
 #samples {
